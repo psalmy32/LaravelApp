@@ -12,10 +12,6 @@ use Carbon\Carbon;
 
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
 class User extends Authenticatable implements JWTSubject
 {
     use HasApiTokens, HasFactory, Notifiable;

@@ -10,10 +10,6 @@ use Hash;
 
 use App\Helper;
 
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
-
 class UserRepository implements UserInterface {
 
     use Response;

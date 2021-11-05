@@ -7,10 +7,6 @@ use App\Http\Traits\Response;
 
 use App\Repositories\User\UserInterface;
 
-
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
 class UserController extends Controller
 {
     use Response;

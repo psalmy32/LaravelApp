@@ -15,11 +15,6 @@ use Mail;
 use App\Mail\WelcomeMail;
 use App\Mail\ForgotPasswordMail;
 
-
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
-
 class AuthRepository implements AuthInterface {
 
     use Response;
@@ -66,7 +61,7 @@ class AuthRepository implements AuthInterface {
         //$myEmail = 'hello@danielozeh.com.ng';
 
         $details = [
-            'subject' => 'Welcome Mail Daniel Ozeh',
+            'subject' => 'Welcome Mail',
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
             'verification_code' => $verification_code

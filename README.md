@@ -1,4 +1,4 @@
-Visit <a href="https://danielozeh.com.ng">Here </a> to Know More.
+Visit <a href="https://documenter.getpostman.com/view/15280607/UVC2HUeN">Here </a> to view API Documentation.
 
 Clone this Repo
 <p> Run <b>composer install </b> </p>

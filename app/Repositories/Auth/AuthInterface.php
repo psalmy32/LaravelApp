@@ -2,10 +2,6 @@
 
 namespace App\Repositories\Auth;
 
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
-
 interface AuthInterface {
 
     public function register($request);

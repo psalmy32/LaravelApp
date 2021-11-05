@@ -7,10 +7,6 @@ use App\Http\Traits\Response;
 
 use App\Repositories\Auth\AuthInterface;
 
-
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
 class AuthController extends Controller
 {
     use Response;

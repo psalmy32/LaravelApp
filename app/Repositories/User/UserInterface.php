@@ -2,10 +2,6 @@
 
 namespace App\Repositories\User;
 
-/**
- * @author Daniel Ozeh hello@danielozeh.com.ng
- */
-
 interface UserInterface {
     
     public function profile();

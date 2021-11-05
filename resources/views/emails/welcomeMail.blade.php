@@ -2,7 +2,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Daniel Ozeh</title>
+    <title>Laravel Base App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style type="text/css">
@@ -31,7 +31,7 @@
             </tr>
             <tr>
             <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
-                Welcome to Daniel Ozeh. We are happy that you are a part of the big family, 
+                Welcome to Laravel Base App. We are happy that you are a part of the big family, 
                 
                 <br>
                 
@@ -52,7 +52,7 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
                         <tr> </tr>
                         <tr>
-                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 25px 0 0 0;"><p style="margin: 0;">Regards, Daniel Ozeh</p></td>
+                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 25px 0 0 0;"><p style="margin: 0;">Regards, Laravel Base App</p></td>
                         </tr>
                     </table>
                     </td>
@@ -67,7 +67,7 @@
         <td bgcolor="#83c324" style="padding: 30px 30px;">
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
             <tr>
-            <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;"><p style="margin: 0;">&reg; Daniel Ozeh<br />
+            <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;"><p style="margin: 0;">&reg; Laravel Base App<br />
             </p></td>
             <td align="right">
                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">

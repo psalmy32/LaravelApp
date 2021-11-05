@@ -175,9 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        /**
-         * Added By Me Daniel Ozeh hello@danielozeh.com.ng
-         */
+        
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
     ],
