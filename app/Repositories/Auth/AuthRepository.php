@@ -72,7 +72,7 @@ class AuthRepository implements AuthInterface {
             'verification_code' => $verification_code
         ];
 
-        Mail::to($request->email)->send(new WelcomeMail($details));
+        //Mail::to($request->email)->send(new WelcomeMail($details));
 
         return $this->response(
             "success",
@@ -182,13 +182,13 @@ class AuthRepository implements AuthInterface {
             $user->save();
 
             $details = [
-                'subject' => 'Verification Mail from Guinea Insurance Plc',
+                'subject' => 'Verification Mail',
                 'first_name' => $user->first_name,
                 'last_name' => $user->last_name,
                 'verification_code' => $verification_code
             ];
 
-            Mail::to($request->email)->send(new WelcomeMail($details));
+            //Mail::to($request->email)->send(new WelcomeMail($details));
 
             return $this->response(
                 "success",
@@ -296,7 +296,7 @@ class AuthRepository implements AuthInterface {
             'token' => $token
         ];
 
-        Mail::to($request->email)->send(new ForgotPasswordMail($details));
+        //Mail::to($request->email)->send(new ForgotPasswordMail($details));
 
         return $this->response(
             "success",

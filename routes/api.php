@@ -62,5 +62,5 @@ Route::group([
     Route::post('/update-avatar', [UserController::class, 'updateProfilePicture']);
     Route::post('/update-cover-photo', [UserController::class, 'updateProfileCoverPhoto']);
     Route::put('/update-profile', [UserController::class, 'updateProfile']);
-    Route::put('/chnage-password', [UserController::class, 'changePassword']);
+    Route::put('/change-password', [UserController::class, 'changePassword']);
 });
